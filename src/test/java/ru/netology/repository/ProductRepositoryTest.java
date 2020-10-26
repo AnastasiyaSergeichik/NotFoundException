@@ -40,6 +40,6 @@ class ProductRepositoryTest {
 
     @Test
     public void removeByIdException() {
-        assertThrows(NotFoundException.class, () -> repository.removeById(6));
+        assertThrows(NotFoundException.class, () -> repository.removeById(2));
     }
 }
